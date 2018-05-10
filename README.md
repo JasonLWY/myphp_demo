@@ -4,10 +4,15 @@
 #### 入门案例
  `<?php`
    header('content-type:text/html; charset=utf-8');
+   
    $name = 'jasonlwy';
+   
    $age = 24;
+   
    $color = 'red';
+   
    $people = array('name'=>'jasonlwy', 'age'=>24, 'color'=>'red');`
+   
   ?>`
  
  
