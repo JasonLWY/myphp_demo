@@ -14,6 +14,7 @@
    
    $people = array('name'=>'jasonlwy', 'age'=>24, 'color'=>'red');
    
-  ?>```
+  ?>
+  ```
  
  
