@@ -30,6 +30,12 @@
     $jasonlwy->color = 'red';
     echo $jasonlwy->name.$jasonlwy->age.$jasonlwy->color;
    ?>
+   /*
+    class关键字 表示一个类，public $name 成员属性 public设置访问权限对应的还有protected private等访问修饰符
+    $jasonlwy = new class //实例一个对象
+    $jasonlwy->name = 'dd';属性成员赋值 ->对象访问符
+    var_dump 输出对象的详细信息
+   */
  ```
  
  
