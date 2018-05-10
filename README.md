@@ -15,21 +15,21 @@
    $people = array('name'=>'jasonlwy', 'age'=>24, 'color'=>'red');
   ?>
   ```
- 2. 案例二
-  ```
-  <?php
-   header('content-type:text/html; charset=utf-8');
-   class people{
-    public $name;
-    public $age;
-    public $color;
-   }
-   $jasonlwy = new people;
-   $jasonlwy->name = 'summery';
-   $jasonlwy->age = 22;
-   $jasonlwy->color = 'red';
-   echo $jasonlwy->name.$jasonlwy->age.$jasonlwy->color;
-  ?>
-  ```
+2. 案例二
+ ```
+   <?php
+    header('content-type:text/html; charset=utf-8');
+    class people{
+     public $name;
+     public $age;
+     public $color;
+    }
+    $jasonlwy = new people;
+    $jasonlwy->name = 'summery';
+    $jasonlwy->age = 22;
+    $jasonlwy->color = 'red';
+    echo $jasonlwy->name.$jasonlwy->age.$jasonlwy->color;
+   ?>
+ ```
  
  
