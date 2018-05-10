@@ -61,6 +61,24 @@
     (3)	成员方法的运行原理和普通的函数是一样的
    */
   ```
-
+5. 构造函数
+ ```
+  <?php
+   class Person{
+    public $name;
+    public $age;
+    function __construct($name,$age){
+     $this->name=$name;
+     $this->age=$age;
+    }
+    function show(){
+     echo $this->name.'='.$this->age;
+    }
+    function __construct(){
+    }
+    };
+    $p1=new Person();
+   ?>
+ ```
  
  
