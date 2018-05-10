@@ -5,6 +5,7 @@
  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img src="http://5b0988e595225.cdn.sohucs.com/images/20171123/83b690046b9d4cf484cceb1b66c9dc14.gif" style="margin-left:25%;"/>
  
 #### 入门案例
+1. 案例1
  ```
   <?php
    header('content-type:text/html; charset=utf-8');
@@ -12,6 +13,22 @@
    $age = 24;
    $color = 'red';
    $people = array('name'=>'jasonlwy', 'age'=>24, 'color'=>'red');
+  ?>
+  ```
+ 2. 案例二
+  ```
+  <?php
+   header('content-type:text/html; charset=utf-8');
+   class people{
+    public $name;
+    public $age;
+    public $color;
+   }
+   $jasonlwy = new people;
+   $jasonlwy->name = 'summery';
+   $jasonlwy->age = 22;
+   $jasonlwy->color = 'red';
+   echo $jasonlwy->name.$jasonlwy->age.$jasonlwy->color;
   ?>
   ```
  
