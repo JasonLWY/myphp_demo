@@ -15,7 +15,7 @@
    $people = array('name'=>'jasonlwy', 'age'=>24, 'color'=>'red');
   ?>
   ```
-2. 案例二
+2. 案例二（面向对象的写法）
  ```
    <?php
     header('content-type:text/html; charset=utf-8');
